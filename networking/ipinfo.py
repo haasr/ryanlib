@@ -35,7 +35,7 @@ class IPInfo:
             self.lookups[id] = lookup
             log_id = id
 
-        return id, lookup
+        return log_id, lookup
 
     def pop_from_log(self, id):
         return self.lookups.pop(id)
